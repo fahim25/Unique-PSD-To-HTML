@@ -23,6 +23,14 @@ a,a:hover{
 |   |   |   Header
 =============================================
 */
+
+.menu{
+    width: 100%;
+    position: relative;
+    z-index: 50;
+    background: #fff;
+}
+
 .header-section{
     width: 100%;
     background: url('../img/Hero.png') center top no-repeat;
@@ -77,7 +85,7 @@ a,a:hover{
 /*==================Home========================*/
 
 .banner{
-    padding: 85px 0px;
+    padding: 85px 0px 100px;
 }
 
 .home-decs{
